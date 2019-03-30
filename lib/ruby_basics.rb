@@ -22,6 +22,6 @@ def last_evaluated_value
   puts "expert"
 end
 
-def pizza_party
-  return "perpperoni"
+def pizza_party(pepperoni = "cheese")
+  return "pepperoni"
 end
